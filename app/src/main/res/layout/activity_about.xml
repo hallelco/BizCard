@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingHorizontal="20dp"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/odotHeaLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="כרטיס ביקור"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="שם האפליקציה : BizCard"
+        android:textSize="18sp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" נכתב על ידי : הלל כהן"
+        android:textSize="18sp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/myClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="כיתה - יב 2 אורט טבעון"
+        android:textSize="18sp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="חזרה" />
+
+</LinearLayout>

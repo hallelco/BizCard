@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="70dp"
+    tools:context=".CardActivity">
+
+    <TextView
+        android:id="@+id/secondTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הכרטיס שלי"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/getName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ריק"
+        android:textSize="18sp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/getRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ריק"
+        android:textSize="18sp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/getPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ריק"
+        android:textSize="18sp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/getWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ריק"
+        android:textSize="18sp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginBottom="10dp"
+        android:text="חייג" />
+
+    <Button
+        android:id="@+id/openWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginBottom="10dp"
+        android:text="פתח אתר" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginBottom="10dp"
+        android:text="שתף" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:text="חזרה" />
+
+</LinearLayout>
