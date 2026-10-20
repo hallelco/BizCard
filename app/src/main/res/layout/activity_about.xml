@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="50dp"
-    android:paddingHorizontal="20dp"
+    android:fitsSystemWindows="true"
+    android:paddingTop="30dp"    android:paddingHorizontal="20dp"
     tools:context=".AboutActivity">
 
     <TextView
         android:id="@+id/odotHeaLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="כרטיס ביקור"
+        android:text="כרטיס ביקור 2.0"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="10dp"

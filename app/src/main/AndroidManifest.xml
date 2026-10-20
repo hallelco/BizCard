@@ -7,12 +7,12 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
             android:name=".MainActivity"
+            android:label="@string/main_screen"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -23,10 +23,12 @@
         </activity>
         <activity
             android:name=".CardActivity"
+            android:label="@string/card_screen"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".AboutActivity"
+            android:label="@string/about_screen"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

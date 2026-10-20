@@ -1,3 +1,12 @@
+
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="main_screen">תפריט כרטיס ביקור</string>
+    <string name="card_screen">הכרטיס שלי</string>
+    <string name="about_screen">אודות</string>
+    <string name="share">שיתוף</string>
+    <string name="fill"> דוגמא</string>
+    <string name="about">אודות</string>
+    <string name="clear">נקה</string>
+    <string name="dial">חייג</string>
+    <string name="opensite">פתח אתר</string>
 </resources>

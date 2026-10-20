@@ -6,17 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingHorizontal="20dp"
-    android:paddingTop="50dp"
+    android:fitsSystemWindows="true"
+    android:paddingTop="30dp"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/cardText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="כרטיס ביקור"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="25dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -61,7 +53,8 @@
         android:hint="הזן מספר טלפון"
         android:textSize="18sp"
         android:inputType="phone"
-        android:gravity="end"
+        android:digits="0123456789"
+        android:gravity="right"
         android:layout_marginBottom="18dp" />
 
     <TextView
@@ -93,15 +86,6 @@
             android:layout_marginEnd="5dp"
             android:textStyle="bold"
             android:text="צור כרטיס" />
-
-        <Button
-            android:id="@+id/odotButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginStart="5dp"
-            android:textStyle="bold"
-            android:text="אודות" />
 
     </LinearLayout>
 
