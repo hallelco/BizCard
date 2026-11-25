@@ -18,8 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class CardActivity extends AppCompatActivity {
     private TextView secondTextText, getName, getRole, getPhone, getWebsite;
     private Button buttonBack;
-    private String gotName, gotRole, gotPhone, gotWebsite;
-
+    private String key, gotName, gotRole, gotPhone, gotWebsite;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +26,7 @@ public class CardActivity extends AppCompatActivity {
         setContentView(R.layout.cardactivity);
         setTitle(R.string.card_screen);
         Intent cIntent = getIntent();
+        key = cIntent.getStringExtra("key");
         buttonBack = findViewById(R.id.buttonBack);
         getName = findViewById(R.id.getName);
         getRole = findViewById(R.id.getRole);
@@ -97,6 +97,22 @@ public class CardActivity extends AppCompatActivity {
             catch (ActivityNotFoundException exception) {
                 toast("לא נמצאה אפליקציה לפתיחת האתר");
             }
+            return true;
+        }
+
+        else if (item.getItemId() == R.id.action_edit) {
+
+            Intent intent = new Intent(CardActivity.this, MainActivity.class);
+
+            intent.putExtra("key", key);
+            intent.putExtra(MainActivity.KEY_NAME, gotName);
+            intent.putExtra(MainActivity.KEY_ROLE, gotRole);
+            intent.putExtra(MainActivity.KEY_PHONE, gotPhone);
+            intent.putExtra(MainActivity.KEY_WEBSITE, gotWebsite);
+
+            startActivity(intent);
+            finish();
+
             return true;
         }
         return super.onOptionsItemSelected(item);

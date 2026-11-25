@@ -17,7 +17,7 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/etname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="הזן שם מלא"
@@ -32,7 +32,7 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/role"
+        android:id="@+id/etrole"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="הזן תפקיד"
@@ -47,7 +47,7 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/phone"
+        android:id="@+id/etphone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="הזן מספר טלפון"
@@ -64,7 +64,7 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/website"
+        android:id="@+id/etwebsite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="הזן כתובת אתר"

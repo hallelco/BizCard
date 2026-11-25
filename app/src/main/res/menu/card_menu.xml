@@ -12,4 +12,9 @@ xmlns:app="http://schemas.android.com/apk/res-auto">
 <item android:id="@+id/action_dial" android:title="@string/dial"
     android:icon="@drawable/ic_call"
     app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_edit"
+        android:title="ערוך כרטיס"
+        app:showAsAction="never" />
 </menu>
